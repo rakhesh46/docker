@@ -1,0 +1,8 @@
+---
+version: "3.9"
+services:
+  website:
+    image: apache
+    ports:
+      - "8081:80.0"
+    restart: unless-stopped
